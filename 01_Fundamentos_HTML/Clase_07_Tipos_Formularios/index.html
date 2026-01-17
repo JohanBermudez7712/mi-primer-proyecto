@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más Inputs</title>
+</head>
+
+<body>
+    <form action="#" method="post"></form>
+    <div>
+        <label for="password">Contraseña:</label>
+        <input id="password" type="password" name="password">
+    </div>
+
+    <div>
+        <label for="">Edad:</label>
+        <input type="number" name="edad" id="edad" min="18" max="70">
+    </div>
+
+    <div>
+        <label for="Fecha">Fecha:</label>
+        <input type="date" id="Fecha">
+    </div>
+    <div>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">
+    </div>
+
+    <div>
+
+        <fieldset>
+            <legend>Género:</legend>
+            <input type="radio" name="Género" id="Masculino" value="M">
+            <label for="">Masculino</label>
+
+            <input type="radio" name="Género" id="Femenino" value="M">
+            <label for="">Femenino</label>
+        </fieldset>
+
+        <Fieldset>
+            <legend>Intereses</legend>
+            <input type="checkbox" name="Intereses" id="Deportes" value="Deportes">
+            <label for="Deportes">Deportes</label>
+
+            <input type="checkbox" name="Intereses" id="Musica" value="Musica">
+            <label for="Musica">Musica</label>
+        </Fieldset>
+    </div>
+
+    <div>
+        <label for="">País:</label>
+        <select name="País" id="País">
+            <option value="Mexico">Mexico</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Argentina">Argentina</option>
+        </select>
+    </div>
+</body>
+
+</html>
